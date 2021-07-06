@@ -215,17 +215,19 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm a Song Downloader Bot. A bot by @JEBotZ.
-
-Hit help button to find out more about how to use me</b>""",   
+               text="""<b>Hay Semua 👋, Saya Adalah Bot Music untuk Mengunduh Lagu Permintaan Anda🤩
+Di grup Maupun Di Private Chat Ya Guys.
+Di kelola ☕ Oleh [Alahsiamy] (https://t.me/LordGanss10</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Help", callback_data="help"),
+                                            "Help📋", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
-                                    ]]
-                            ),        
+                                            "Owner ❤️", url="https://t.me/Infinity_BOTs")
+                                    ]]  InlineKeyboardButton(
+                                            "Support Groups 👥", url="https://t.me/bacotsi")
+                            ),          InlineKeyboardButton(
+                                            "Didukung Oleh👻", url="https://t.me/SujandraAsissten")
             disable_web_page_preview=True,        
             parse_mode="html",
             reply_to_message_id=message.message_id
@@ -252,15 +254,13 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Send a song name to download song
-
-@JEBotZ</b>""",
+               text="""<b>Kirimkan Nama Music Yang Ingin Di Unduh</b>""",
             reply_to_message_id=message.message_id
         )
     else:
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="<b>Song Downloader Help.\n\nSyntax: `/song guleba`</b>",
+               text="<b>Song Downloader Help.\n\nSyntax: `/song <Judul Lagu>`</b>",
             reply_to_message_id=message.message_id
         )     
         
