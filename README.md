@@ -1,14 +1,14 @@
-# Telegram Song Download Bot ❤
+# Bot untuk Mendownload Music Di Telegram ❤
 
 ## You can download any song using this bot. Can be found in telegram as [@JESongBot](https://t.me/JESongBot)
 
 ### Commands:
-- In Groups - `/song <song name>`
-- In Private - Just send song name
+- Di dalam Groups - `/song <song name>`
+- Di Private Message - Kirimkan Nama Lagu
 
 ### Deploy to Heroku 🏃‍♂
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImJanindu/Songdl-tgbot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AzmyGansKuy/Songdl-tgbot)
 
 ### Credits:
 
@@ -18,6 +18,6 @@
 
 ### Developers:
 
-- [@ImJanindu](https://t.me/ImJanindu)
+- [@Alahsiamy](https://t.me/LordGanss10)
 
-- [@InukaASiTH](https://t.me/InukaASiTH)
+- [@Sujandra](https://t.me/SujandraAsissten)
