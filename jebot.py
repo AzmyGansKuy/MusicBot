@@ -217,7 +217,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hay Semua 👋, Saya Adalah Bot Music untuk Mengunduh Lagu Permintaan Anda🤩
 Di grup Maupun Di Private Chat Ya Guys.
-Di kelola ☕ Oleh [Alahsiamy] (https://t.me/LordGanss10</b>""",   
+Di kelola ☕ Oleh [@Alahsiamy](https://t.me/LordGanss10</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
